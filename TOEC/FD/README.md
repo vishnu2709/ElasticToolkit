@@ -8,7 +8,7 @@ Let's say this repo is present in $HOME/TOEC, and your working directory is $HOM
 python $HOME/TOEC/FD/fd.py eta
  </code>
  
- where eta is the step size for finite difference (recommended value of eta is 0.02). This command will create folders for each displacement. VASP should be run in each of the folders. Note that you should not do any relaxation - we only need first principles energy.
+ where eta is the step size for finite difference (recommended value of eta is 0.02). This command will create folders for each displacement. VASP should be run in each of the folders. Note that ISIF should be set to 2, the lattice parameters must not be affected by these calculations.
  
 Once all the calculations are done, do
 
