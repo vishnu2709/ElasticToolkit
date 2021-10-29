@@ -1,2 +1,2 @@
-# TOEC
-Simple scripts to calculate third order elastic constants
+# Elastic Toolkit
+Set of tools useful for doing finite deformation studies
