@@ -1,5 +1,6 @@
 # Calculating Symmetric Wallace Tensor
 
+(Note - all scripts are written in Python 2)
 These scripts and instructions are for uniaxial stretching along z-direction, we will add more functionality later.
 
 Here a list of the files you need
