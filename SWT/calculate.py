@@ -19,7 +19,12 @@ for i in range(len(lines)):
         Cij[i, j] = float(data[j])
 
 w = calculateWallaceTensor(stress, Cij)
-print w
+print "Symmetric Wallace Tensor\n"
+print w,'\n'
 isStable, eigenvals, vecs = checkStability(w)
 eigenvecs = np.transpose(vecs)
-print isStable, eigenvals, eigenvecs
+print "Eigenvalues:\n"
+print eigenvals,'\n'
+print "Eigenvectors (in same order as eigenvalues):\n"
+print eigenvecs,'\n'
+print "The system is stable?", isStable
